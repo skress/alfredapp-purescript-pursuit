@@ -1,0 +1,36 @@
+{
+  "name": "alfred-purescript-pursuit-search",
+  "version": "0.0.1",
+  "description": "Search pursuit.purescript.org",
+  "license": "MIT",
+  "repository": "skress/alfred-purescript-pursuit-search",
+  "author": {
+    "name": "Soeren Kress",
+    "email": "soeren@boundless-mind.com",
+    "url": "github.com/skress/alfredapp-purescript-pursuit"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0"
+  }
+}
