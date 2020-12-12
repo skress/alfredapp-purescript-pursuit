@@ -15,7 +15,8 @@
   "scripts": {
     "test": "node test.js",
     "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup",
+    "dist": "rm -f dist/purescript-pursuit-search.alfredworkflow && zip -x dist/\\* -r dist/purescript-pursuit-search.alfredworkflow *"
   },
   "files": [
     "index.js",
@@ -28,7 +29,7 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.9.1"
+    "alfy": "^0.10.0"
   },
   "devDependencies": {
     "alfy-test": "^0.4.0"
